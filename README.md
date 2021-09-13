@@ -1,6 +1,6 @@
 # IrrigationSimulation
 
-: I used DHT from Adafruit in order to read the humidity and temperature from the
+I used DHT from Adafruit in order to read the humidity and temperature from the
 DHT11. For a good number of my readings, I would either get error or a humidity over 100%
 which is impossible, so in order to fix this, I made a while loop that would take the reading until
 a good reading was found each time I used the DHT. I would then display this value onto the
