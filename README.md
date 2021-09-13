@@ -31,7 +31,7 @@ valid measurement from the DHT and display it on the LCD. Everytime it was calle
 variable would be incremented and once counter==60, get_hourly() would be called.
 get_hourly()- this function would take the url from the datasheet of the Irvine tower weather and
 take the most recent temperature, humidity, and eto value. I calculated the eto value using the
-linear derating method provided in the lab procedure. The number of gallons needed to water the
+linear derating method which was given. The number of gallons needed to water the
 lawn was then calculated and divided by the rate of the sprinkler system to find how long to turn
 on the sprinkler. All this information was put on a rolling message on the LCD. Additionally,
 since we had to show the amount of water saved over a 24 hour period of time, I had this
